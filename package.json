@@ -1,0 +1,25 @@
+{
+  "name": "satsguard",
+  "version": "1.0.0",
+  "description": "Delegated Lightning budgets for AI agents, enforced cryptographically",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/run-tests.js",
+    "e2e": "node test/e2e-pwa.js",
+    "build:pwa": "node scripts/build-pwa.js",
+    "demo": "node agent/cli.js --sim"
+  },
+  "keywords": [],
+  "author": "SatsGuard contributors",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@noble/ciphers": "^2.4.0",
+    "@noble/curves": "^1.4.0",
+    "@noble/hashes": "^2.4.0",
+    "ws": "^8.23.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "mandate": {
+    "version": 1,
+    "id": "562020633ba377035d98d7342b6cb625",
+    "issuer": "a26546ed898cf1d1bb9b21f6a8f252cd5c8393392aeea44a26d8eeadb43424ce",
+    "agent": "ebcc8da10577b0528efcec9782b92e94eb8efb5f63f85024cffee59983bb329c",
+    "caveats": {
+      "cap_sats": 1000000,
+      "recipients": [
+        "02d9676bd8b7ea6f6e9e12c4a1d1e2f3a4b5c6d7e8f90123456789abcdef0123"
+      ],
+      "expires_at": 1795064339268,
+      "max_per_payment_sats": 500000,
+      "period": "single"
+    },
+    "created_at": 1794977939322
+  },
+  "sig": "4e93d91202d66cc0106e781a660e1904404b1d4ac1b13bc396b8739ad30f5ee216a36872d126b574dbf6c2fe9af50a0b94ed6a49ec1db108f474b37997cf86f8"
+}

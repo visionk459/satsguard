@@ -1,0 +1,78 @@
+[
+  {
+    "type": "spend",
+    "mandate_id": "562020633ba377035d98d7342b6cb625",
+    "recipient": "02d9676bd8b7ea6f6e9e12c4a1d1e2f3a4b5c6d7e8f90123456789abcdef0123",
+    "amount_sats": 100000,
+    "status": "PAID",
+    "tx_ref": "6cf5c65effe52142",
+    "preimage_hash": "d8265074e2b7e635d6378e7664ffe74631d91dec9d6746f25d7658bf81650400",
+    "ts": 1794977939544,
+    "seq": 0,
+    "entryHash": "972d3c9bd36b7950eb345f11dcffadd55e953e1d7d9d6ce424f9b3763dbb0aa6"
+  },
+  {
+    "type": "spend",
+    "mandate_id": "562020633ba377035d98d7342b6cb625",
+    "recipient": "02d9676bd8b7ea6f6e9e12c4a1d1e2f3a4b5c6d7e8f90123456789abcdef0123",
+    "amount_sats": 150000,
+    "status": "PAID",
+    "tx_ref": "b670450006dbcf14",
+    "preimage_hash": "950a3560fae92003f13eb03bbbf254d62502b430125a6537ebf28ab8ba47730b",
+    "ts": 1794977939655,
+    "seq": 1,
+    "entryHash": "9600ca030d4c8f824c8b10bbeadcf8b2f00cef3ebbb7020828e5c9ad22e6e8fa"
+  },
+  {
+    "type": "reject",
+    "mandate_id": "562020633ba377035d98d7342b6cb625",
+    "recipient": "02d9676bd8b7ea6f6e9e12c4a1d1e2f3a4b5c6d7e8f90123456789abcdef0123",
+    "amount_sats": 600000,
+    "reason": "PER_PAYMENT",
+    "ts": 1794977939766,
+    "seq": 2,
+    "entryHash": "d082e62ae6933492675bb0fe43540e1cbe67c76cbbf6f1f47b2c0a4aa236debc"
+  },
+  {
+    "type": "spend",
+    "mandate_id": "562020633ba377035d98d7342b6cb625",
+    "recipient": "02d9676bd8b7ea6f6e9e12c4a1d1e2f3a4b5c6d7e8f90123456789abcdef0123",
+    "amount_sats": 400000,
+    "status": "PAID",
+    "tx_ref": "f76ed2e81749e126",
+    "preimage_hash": "49cedd23a2ce30d8dbc8b6d47609ce21086b1b9dcf4a22db599fb7873fe7180b",
+    "ts": 1794977939877,
+    "seq": 3,
+    "entryHash": "faed0e6fd6f112734a85140053e18e8749e6c9a4106679265b152d045d317e77"
+  },
+  {
+    "type": "reject",
+    "mandate_id": "562020633ba377035d98d7342b6cb625",
+    "recipient": "02d9676bd8b7ea6f6e9e12c4a1d1e2f3a4b5c6d7e8f90123456789abcdef0123",
+    "amount_sats": 400000,
+    "reason": "LIMIT",
+    "ts": 1794977939988,
+    "seq": 4,
+    "entryHash": "27eec8058f11d194d8c094d1d4efe5d121c11aa79d2ddd783902fd113e5514ea"
+  },
+  {
+    "type": "reject",
+    "mandate_id": "562020633ba377035d98d7342b6cb625",
+    "recipient": "0xBADFEED",
+    "amount_sats": 1000,
+    "reason": "WHITELIST",
+    "ts": 1794977940099,
+    "seq": 5,
+    "entryHash": "7039959ddb80c205ebc83f0fe322f7795f58984e1dafe9ae88aed82d375d1ea6"
+  },
+  {
+    "type": "reject",
+    "mandate_id": "562020633ba377035d98d7342b6cb625",
+    "recipient": "02d9676bd8b7ea6f6e9e12c4a1d1e2f3a4b5c6d7e8f90123456789abcdef0123",
+    "amount_sats": 5000,
+    "reason": "REVOKED",
+    "ts": 1794977940481,
+    "seq": 6,
+    "entryHash": "8bc4149f3b1929f3a01e950e02f0bd6bd17914b3cd97e7306be52ce2f44d30b7"
+  }
+]
